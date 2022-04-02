@@ -1,36 +1,62 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) { 
-.main{
-    overflow: hidden;
-
-    .main1{
-        .main-left{
-            img{
-                width: 100%;
-            }
-        }
-        .main-right{
-            .main-r-l{
-                display: none;
-            }
-            .main-r-r{
-                .r-1{
-                    margin-left: 22px;
-                    .m-right-text-r{
-                        margin-left: -50px;
+    .main{
+        overflow: hidden;
+    
+        .main1{
+            margin-left: -50px;
+            margin-right: 40px;
+            .main-left{
+                .m-left-text{
+                    top: 330px;
+                    left: 90px;
+                    i{
+                        opacity: 1;
+                        overflow: visible;
                     }
                 }
-                .r-2{
-                    margin-left: 0px;
-                    
+                img{
+                    width: 100%;
                 }
-               
+            }
+            .main-right{
+                .main-r-l{
+                    display: none;
+                }
+                .main-r-r{
+                    margin-top: 450px;
+                    margin-left: 70px;
+                    .r-1{
+                        margin-left: 22px;
+                        .m-right-text-r{
+                            margin-left: -50px;
+                        }
+                    }
+                    .r-2{
+                        margin-left: 0px;
+                        
+                    }
+                   
+                }
+            }
+    
+        }
+    }
+    
+    
+    .handpicked{
+        .handpicked1{
+            .shop-now{
+                button{
+                    display: none;
             }
         }
-
     }
 }
+
+
+
 .history{
     overflow: hidden;
 
@@ -72,7 +98,7 @@
             flex-wrap: wrap ;
             .c-1{
                 .c-text{
-                    left: 21%;
+                    left: 0%;
                     h2{
                         font-size: 17px;
                     }
@@ -84,8 +110,8 @@
             margin-top: 50px;
             .c-right-img{
                 .r1-text{
-                    left: -72%;
-                    top: 90%;
+                    left:-50%;
+                    top: 91%;
                     h2{
                         font-size: 18px;
                     }
@@ -136,6 +162,15 @@
         .resp-tumb1{
             width: 100%;
         }
+        .tumbler1{
+            .t-icons{
+                width: 110%;
+                top: 60%;
+                i{
+                    margin-left: 0;
+                }
+            }
+        }
     }
 }
 
@@ -159,12 +194,190 @@
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 576px) and (max-width: 768px) { 
+    .main{
+        overflow: hidden;
+    
+        .main1{
+            margin-left: -50px;
+            margin-right: 40px;
+            .main-left{
+                .m-left-text{
+                    top: 450px;
+                    left: 90px;
+                    i{
+                        opacity: 1;
+                    }
+                }
+                img{
+                    width: 100%;
+                }
+            }
+            .main-right{
+                
+                .main-r-l{
+                    display: none;
+                }
+                .main-r-r{
+                    margin-top: 600px;
+                    margin-left: 120px;
+                    .r-1{
+                        margin-left: 22px;
+                        .m-right-text-r{
+                            margin-left: -50px;
+                        }
+                    }
+                    .r-2{
+                        margin-left: 0px;
+                        
+                    }
+                   
+                }
+            }
+    
+        }
+    }
 
+
+    .handpicked{
+        .handpicked1{
+            .shop-now{
+                button{
+                    display: none;
+                }
+            }
+        }
+    }
+
+
+    .history{
+        overflow: hidden;
+    
+        .history1{
+            margin-left: -6px;
+            overflow: hidden;
+            img{
+                width: 650px;
+                transform: translateX(-150px);
+                height: 32vh;
+            }
+            .his-text{
+                margin-top: -50px;
+                margin-left: -10px;
+                h1{
+                    font-size: 15px;
+                    top: 10%;
+                    font-weight: 600;
+                }
+                p{
+                    width: 100%;
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    font-size: 12px;
+                }
+                a{
+                    padding-top: -10px;
+                }
+            }
+        }
+    }
+    
+    
+    .categories{
+    
+        .categories1{
+            .c-left{
+                display: flex;
+                flex-wrap: wrap ;
+                .c-1{
+                    .c-text{
+                        left: 21%;
+                        h2{
+                            font-size: 17px;
+                        }
+                    }
+                }
+                
+            }
+            .c-right{
+                margin-top: 50px;
+                .c-right-img{
+                    .r1-text{
+                        left: -72%;
+                        top: 90%;
+                        h2{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .subscribe{
+        overflow: hidden;
+        .subscribe1{
+            .s-text{
+                margin-top: 0px;
+                h2{
+                    font-size: 15px;
+    
+                }
+                i{
+                    font-size: 35px;
+    
+                }
+            }
+            .s-email{
+                width: 250px;
+                margin-left: 0px;
+                .s-btn{
+                    width: 100px;
+                    left: 95%;
+                }
+                .s-email1{
+                    input{
+                        width: 215px;
+                    }
+                    label{
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .trend{
+          .t-prod{
+            .resp-tumb{
+                display: none;
+            
+            }
+            .resp-tumb1{
+                width: 100%;
+            }
+        }
+    }
+    
+    .insta{
+        width: 100%;
+        i{
+            font-size: 28px;
+            padding: 20px 20px;
+            left: 42%;
+            top: 13%;
+        }
+        .i-imgs{
+            height: 500px;   
+            .i-img{
+                width: 100%;
+            }    
+        }
+    }
+    
 }
 
 // Large devices (desktops, 992px and up)
-@media (max-width: 992px) { 
-
+@media (min-width: 768px) and  (max-width: 992px) { 
+   
 }
 
 // X-Large devices (large desktops, 1200px and up)
